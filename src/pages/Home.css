@@ -1,0 +1,74 @@
+.container-tarefas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container-tarefas h1 {
+  font-size: 48px;
+  margin-bottom: 8px;
+} 
+
+.container-tarefas span {
+  margin-bottom: 28px;
+}
+
+.form-tarefas {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 600px;
+}
+
+.form-tarefas input {
+  border: 0;
+  margin-bottom: 12px;
+  height: 36px;
+  border-radius: 5px;
+  padding: 0 8px;
+}
+
+.form-tarefas button {
+  height: 36px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(3, 175, 175);
+  color: black;
+}
+
+.form-tarefas button:hover {
+  background-color: rgb(130, 243, 243);
+}
+
+.form-tarefas textarea {
+  margin-bottom: 12px;
+  border: 0;
+  height: 90px;
+  resize: none;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.link-tarefas {
+  padding: 20px;
+  color: white;
+  font-style: italic;
+  text-decoration: none;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 8px;
+  background-color: aqua;
+  color: black;
+  font-weight: bolder;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
